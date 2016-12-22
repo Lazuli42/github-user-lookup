@@ -23,7 +23,7 @@ var browserSync = require('browser-sync').create();
 
 gulp.task('jsBrowserify', function(){
   return browserify({entries: ['./js/*.js']})
-    .bundle();
+    .bundle()
     .pipe(source('app.js'))
     .pipe(gulp.dest('./build/js'));
 });

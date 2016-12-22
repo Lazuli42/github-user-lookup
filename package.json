@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Lazuli42/github-user-lookup#readme",
   "devDependencies": {
+    "bower-files": "^3.14.1",
     "browser-sync": "^2.17.3",
     "browserify": "^13.1.0",
     "del": "^2.2.2",
